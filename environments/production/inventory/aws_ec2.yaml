@@ -1,4 +1,13 @@
 plugin: aws_ec2
+
 aws_profile: ansible
+
 regions:
   - eu-central-1
+
+hostnames:
+  - ip-address
+
+keyed_groups:
+  - key: tags.Role
+  - key: tags.Environment
