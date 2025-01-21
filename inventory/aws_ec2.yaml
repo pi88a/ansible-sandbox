@@ -11,3 +11,5 @@ hostnames:
 keyed_groups:
   - key: tags.Role
   - key: tags.Environment
+
+leading_separator: true
