@@ -8,7 +8,7 @@ regions:
 hostnames:
   - ip-address
 
-leading_separator: true
+leading_separator: false
 
 keyed_groups:
   - key: tags.Role
